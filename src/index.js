@@ -11,14 +11,15 @@ import {
     Redirect,
     Link
 } from "react-router-dom";
+import {baseUrl} from "./config/config";
 import {HomeView} from "./container/homeView/HomeView";
 import {DoubleTeacherCourseView} from "./container/doubleTeacherCourse/DoubleTeacherCourseView";
 import {TeacherIntroduceView} from "./container/teacherIntroduceView/TeacherIntroduceView";
 import {CourseIntroduceView} from "./container/courseIntroduceView/CourseIntroduceView";
 
 
+baseUrl.setBaseUrl("/vipcodetob");
 let redirectUrl = "/home";
-
 ReactDOM.render(
     (<HashRouter history={history}>
         <Redirect to={redirectUrl}/>

@@ -52,7 +52,7 @@ export class HeaderNavView extends Component{
             return (
                 <Link to={item.link}
                       key={index}
-                      className={`${this.state.itemClassName} ${item.active?this.state.activeClassName:""}`}
+                      className={`def_header_nav_item ${this.state.itemClassName} ${item.active?this.state.activeClassName:""}`}
                       onClick={item.cutActiveNav(item)}>
                     {item.name}
                 </Link>

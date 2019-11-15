@@ -5,6 +5,7 @@ import React, {Component} from 'react';
 import {HeaderView} from "../headerView/HeaderView";
 import {SectionTitleView} from "../sectionTitleView/SectionTitleView";
 import {baseUrl} from "../../config/config";
+import {FooterView} from "../footerView/FooterView";
 import homeViewStyle from './homeViewStyle.css';
 
 let solveList = [
@@ -37,6 +38,9 @@ export class HomeView extends Component{
         super(props);
 
     }
+    openNewWindow(){
+        window.open("http://vipcode2b.mikecrm.com/ExhR4Rm");
+    }
     render() {
         let solveNodes = solveList.map((item,index)=>{
             return (
@@ -67,7 +71,7 @@ export class HomeView extends Component{
                 <HeaderView />
                 <div className="home_sec_1">
                     <div className="home_sec_1_content">
-                        <div className="home_sec_1_more">了解详情</div>
+                        <div onClick={this.openNewWindow.bind(this)} className="home_sec_1_more">了解详情</div>
                     </div>
                 </div>
                 <div className="home_sec_2">
@@ -95,8 +99,8 @@ export class HomeView extends Component{
                 <div className="home_sec_4">
                     <div className="home_sec_4_content">
                         <SectionTitleView title={"少儿编程双师课堂—壹站式合作解决方案"}
-                                          subTitle={"面临竞争，你的企业将成为创新的颠覆者，还是被新的技术所颠覆？员工是企业创新和颠覆的核心力量。为他们提供实用、前沿的技术培训，让他们驱动企业的创新和突破，成为企业持续性增长的关键动力。"}
-                                          subTitleClassName={"home_sec_3_sub_title"}/>
+                                          subTitle={"十二大服务支持体系，全方位保驾护航"}
+                                          subTitleClassName={"home_sec_4_sub_title"}/>
                         <ul className="home_sec_4_solve_way">
                             <li className="home_sec_4_solve_way_title">
                                 <div className="home_sec_4_solve_way_title_item home_sec_4_solve_way_title_left">产品&技术支持</div>
@@ -109,7 +113,6 @@ export class HomeView extends Component{
                         </ul>
                     </div>
                 </div>
-                <div className="home_sec_5"></div>
                 <div className="home_sec_6">
                     <div className="home_sec_6_content">
                         <SectionTitleView title={"企业动态"}/>
@@ -131,11 +134,10 @@ export class HomeView extends Component{
                             <div className="cooperative_agency_list">
                                 {cooperativeAgencyNodes}
                             </div>
-                            <div className="cooperative_agency_btn">关于我们</div>
                         </div>
-
                     </div>
                 </div>
+                <FooterView />
             </div>
         );
     }

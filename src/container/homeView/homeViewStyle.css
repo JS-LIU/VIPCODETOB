@@ -1,5 +1,6 @@
 .home_sec_1{
-    width:100%;
+    margin-top: 80px;
+
     height:571px;
 
     background:url("../../img/home_sec_1_bg.png") no-repeat center;
@@ -95,6 +96,18 @@
     font-size: 16px;
     color: #A1B6C5;
 }
+.home_sec_4_sub_title{
+    text-align: center;
+    font-size: 16px;
+    color: #A1B6C5;
+}
+.home_sec_4{
+    width:100%;
+
+    background:linear-gradient(-39deg,rgba(234,249,252,1) 0%,rgba(247,247,247,1) 100%);
+
+    padding-bottom:107px;
+}
 .home_sec_4_solve_way{
     display:flex;
     flex-direction: column;
@@ -136,6 +149,8 @@
     height:70px;
 
     margin:20px 20px 0 0;
+
+    background:#FFFFFF;
 
     box-shadow:0 1px 20px 0 rgba(18,17,15,0.1);
     border-radius:8px;
@@ -180,11 +195,21 @@
     border-radius: 8px;
     overflow: hidden;
 }
+.movement_detail{
+    text-align: center;
+
+    background:url("../../img/icon_pause01.png") no-repeat bottom center;
+    background-size: 48px;
+
+    padding-bottom: 80px;
+}
 .movement_pic{
     width: 100%;
 }
 .home_sec_7{
     width:100%;
+
+    margin-bottom:170px;
 }
 .home_sec_7_content{
     width:1180px;
@@ -202,13 +227,12 @@
 }
 .cooperative_agency{
     width:1180px;
-    height:371px;
+    height:320px;
 
     margin-top:102px;
 
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
 
     background:linear-gradient(-16deg,rgba(2,179,228,1) 0%,rgba(2,204,186,1) 100%);
@@ -221,7 +245,7 @@
     font-weight:600;
     color:#FFFFFF;
 
-    text-shadow:-4px 0 4px rgba(0, 0, 0, 0.25);
+    margin-top: 56px;
 }
 .cooperative_agency_list{
     width:952px;
@@ -230,6 +254,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+    margin-top:73px;
 }
 .cooperative_agency_btn{
     width:178px;

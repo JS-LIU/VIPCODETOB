@@ -2,7 +2,7 @@
  * Created by Liudq on 2019/11/12
  */
 import React, {Component} from 'react';
-
+import headerLoginViewStyle from './headerLoginViewStyle.css';
 let defLoginBtnText = "教师登录";
 let login_btn_style = {
     width:"126px",
@@ -14,7 +14,6 @@ let login_btn_style = {
     justifyContent:"center",
 
     fontSize:"16px",
-    color:"#00BAFF",
     cursor:"pointer",
 
 };
@@ -37,7 +36,7 @@ export class HeaderLoginView extends Component{
 
     render() {
         return (
-            <div style={this.state.loginBtnStyle}>
+            <div style={this.state.loginBtnStyle} className="def_login_btn">
                 {this.state.loginBtnText}
             </div>
         );

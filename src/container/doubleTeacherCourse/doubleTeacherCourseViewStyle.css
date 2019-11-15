@@ -1,6 +1,7 @@
 .double_teacher_sec_1{
+    margin-top: 80px;
+
     background:url("../../img/double_teacher_sec_1.png") no-repeat center;
-    width: 100%;
     height:571px;
 }
 .double_teacher_sec_2{
@@ -88,8 +89,7 @@
     height:885px;
     width:100%;
 
-    background: url("../../img/double_teacher_sec_4_bg.png") bottom center;
-    background-size: cover;
+    background: url("../../img/double_teacher_sec_4_bg.png") no-repeat bottom center;
 }
 .study_way{
     display: block;
