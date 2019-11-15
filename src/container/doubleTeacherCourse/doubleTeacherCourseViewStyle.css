@@ -1,0 +1,109 @@
+.double_teacher_sec_1{
+    background:url("../../img/double_teacher_sec_1.png") no-repeat center;
+    width: 100%;
+    height:571px;
+}
+.double_teacher_sec_2{
+    width:100%;
+    height:790px;
+
+    background:linear-gradient(-39deg,rgba(234,249,252,1) 0%,rgba(247,247,247,1) 100%);
+}
+.double_teacher_sec_2_content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    width:1180px;
+    margin: 0 auto;
+}
+.sec_2_sub_title{
+    width:519px;
+
+    display:flex;
+    flex-wrap: wrap;
+
+    text-align: center;
+    font-size: 16px;
+    color: #A1B6C5;
+}
+.sec_2_teach_way_box{
+    margin-top:85px;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width:1180px;
+}
+.online_teach,.assistant_teach{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    width:555px;
+    height:350px;
+
+    border-radius: 8px;
+
+    overflow: hidden;
+
+    background:url("../../img/teach_online_pic.png") no-repeat top center;
+    background-size: 555px 256px;
+}
+.assistant_teach{
+    background:url("../../img/assistant_teach_pic.png") no-repeat top center;
+    background-size: 555px 256px;
+}
+.teach_pic_info{
+    height:94px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-left: 31px;
+
+    background:#FFF;
+}
+.teach_pic_title{
+    font-size:20px;
+    color:#525C65;
+}
+.teach_pic_sub_title{
+    font-size:14px;
+    color:#525C65;
+}
+.double_teacher_sec_3{
+    height:720px;
+    width:100%;
+}
+.excellent_course{
+    display: block;
+    width:1180px;
+
+    margin: 66px auto 0;
+}
+.double_teacher_sec_4{
+    height:885px;
+    width:100%;
+
+    background: url("../../img/double_teacher_sec_4_bg.png") bottom center;
+    background-size: cover;
+}
+.study_way{
+    display: block;
+    width:1097px;
+
+    margin: 66px auto 0;
+}
+.double_teacher_sec_5{
+    height:838px;
+    width:100%;
+}
+.comparison{
+    display: block;
+    width:940px;
+
+    margin: 66px auto 0;
+}

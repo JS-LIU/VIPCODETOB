@@ -1,0 +1,250 @@
+.home_sec_1{
+    width:100%;
+    height:571px;
+
+    background:url("../../img/home_sec_1_bg.png") no-repeat center;
+}
+.home_sec_1_content{
+    width:1180px;
+
+    margin:0 auto;
+
+    display:flex;
+}
+.home_sec_1_more{
+    margin-top:345px;
+    width:120px;
+    height:46px;
+
+    border:1px solid #FFFFFF;
+    border-radius:8px;
+
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+    font-size: 16px;
+    color:#FFFFFF;
+}
+.home_sec_2{
+    height:435px;
+}
+.home_sec_2_content{
+    width:1180px;
+
+    margin:110px auto 0;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.home_sec_2_increase_introduce{
+    height:358px;
+    width:574px;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home_sec_2_increase_introduce_subtitle{
+    color:#A1B6C5;
+    font-size: 16px;
+}
+.home_sec_2_increase_introduce_title{
+    font-size: 32px;
+    color:#02B3E4;
+}
+.home_sec_2_increase_introduce_detail{
+    font-size:16px;
+    color:#525C65;
+
+    padding-top:30px;
+    line-height:30px;
+}
+.hone_sec_2_increase_pic{
+    width:495px;
+    height:351px;
+
+    background: url("../../img/home_increase_pic.png") no-repeat 43px center;
+    background-size: 380px 278px;
+
+    box-shadow:0 1px 40px 0 rgba(18,17,15,0.1);
+
+    border-top: 7px solid #02CCBA;
+    border-radius:8px;
+
+    overflow: hidden;
+}
+.home_sec_3{
+    height:795px;
+    width:100%;
+
+    background:url("../../img/home_sec_3_policy_bg.png") no-repeat bottom center;
+}
+.home_sec_3_sub_title{
+    width:810px;
+
+    display:flex;
+    flex-wrap: wrap;
+
+    text-align: center;
+    font-size: 16px;
+    color: #A1B6C5;
+}
+.home_sec_4_solve_way{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top:79px;
+}
+.home_sec_4_solve_way_title{
+    width:697px;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.home_sec_4_solve_way_title_item{
+    font-size:14px;
+    font-weight:600;
+}
+.home_sec_4_solve_way_title_left{
+    color: #02CCBA;
+}
+.home_sec_4_solve_way_title_center{
+    color: #02B3E4;
+}
+.home_sec_4_solve_way_title_right{
+    color: #FB5B87;
+}
+.home_sec_4_solve_list{
+    width:900px;
+
+    margin:15px 0 0 25px;
+
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.sec_4_solve_item{
+    width:280px;
+    height:70px;
+
+    margin:20px 20px 0 0;
+
+    box-shadow:0 1px 20px 0 rgba(18,17,15,0.1);
+    border-radius:8px;
+
+    font-size:14px;
+    color: #525C65;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.home_sec_6{
+    width:100%;
+}
+.home_sec_6_content{
+    width:1180px;
+
+    margin:0 auto;
+}
+.business_movement{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    width:1200px;
+    margin:70px 0 0 20px;
+}
+.movement_item{
+    height:336px;
+
+    margin: 20px 20px 0 0;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 24px;
+    color:#FFFFFF;
+
+    border-radius: 8px;
+    overflow: hidden;
+}
+.movement_pic{
+    width: 100%;
+}
+.home_sec_7{
+    width:100%;
+}
+.home_sec_7_content{
+    width:1180px;
+
+    margin:0 auto;
+}
+.honor_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width:905px;
+
+    margin:113px auto 0;
+}
+.cooperative_agency{
+    width:1180px;
+    height:371px;
+
+    margin-top:102px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    background:linear-gradient(-16deg,rgba(2,179,228,1) 0%,rgba(2,204,186,1) 100%);
+
+    border-radius:8px;
+    overflow: hidden;
+}
+.cooperative_agency_title{
+    font-size:36px;
+    font-weight:600;
+    color:#FFFFFF;
+
+    text-shadow:-4px 0 4px rgba(0, 0, 0, 0.25);
+}
+.cooperative_agency_list{
+    width:952px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.cooperative_agency_btn{
+    width:178px;
+    height:58px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background:#FFFFFF;
+
+    border-radius: 8px;
+
+    font-size:18px;
+    font-weight:600;
+    color:#02B5DF;
+}

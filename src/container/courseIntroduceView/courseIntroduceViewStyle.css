@@ -1,0 +1,159 @@
+.course_introduce_sec_1{
+    background:url("../../img/course_introduce_sec_1_bg.png") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height:571px;
+}
+.course_introduce_sec_2{
+    width: 100%;
+
+    background:linear-gradient(-39deg,rgba(234,249,252,1) 0%,rgba(247,247,247,1) 100%);
+}
+.course_introduce_sec_2_content{
+    width:1180px;
+
+    margin:0 auto;
+
+}
+.course_introduce_sec_2_sub_title{
+    width: 896px;
+
+    display:flex;
+    flex-wrap: wrap;
+
+    text-align: center;
+    font-size: 16px;
+    color: #A1B6C5;
+}
+.course_introduce_sec_2_course_list{
+    width:1180px;
+
+    margin:80px auto 0;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.course_introduce_sec_2_course_item{
+    width:368px;
+    height:232px;;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    background:#FFFFFF;
+
+    box-shadow:11px 11px 38px 0 rgba(82,92,100,0.08);
+    border-radius:12px;
+}
+.course_introduce_sec_2_course_item_top{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding: 36px 0 0 21px;
+}
+.course_introduce_sec_2_course_item_name{
+    padding-left:30px;
+
+    font-size:20px;
+    font-weight:400;
+}
+.course_introduce_sec_2_course_item_describe{
+    font-size: 14px;
+    color: #525C65;
+
+    padding-top:42px;
+}
+.course_introduce_sec_2_course_graph{
+    background: url("../../img/course_python_graph.png") no-repeat center center;
+    background-size: 1180px;
+
+    width:1180px;
+    height: 574px;
+
+    margin: 70px auto 0;
+}
+.course_introduce_sec_3{
+    width:100%;
+}
+.course_introduce_sec_3_content{
+    width:1180px;
+
+    margin:0 auto;
+}
+.course_introduce_sec_3_theory{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width:1300px;
+    margin:68px auto 0;
+}
+.course_introduce_sec_3_theory_left{
+    width:491px;
+    height:372px;
+
+    background:#FFFFFF url("../../img/course_sec_3_theory_pic.png") no-repeat center center;
+    background-size: 445px 294px;
+
+    box-shadow:0 1px 20px 0 rgba(18,17,15,0.1);
+    border-radius:11px;
+}
+.course_introduce_sec_3_theory_right{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    width:730px;
+}
+.theory_item{
+    display:flex;
+    flex-direction: column;
+
+    margin:0 100px 46px 0;
+}
+.theory_item_top{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.theory_item_top_num{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width:32px;
+    height:32px;
+
+    background:#37B1DF;
+
+    color:#FFFFFF;
+    font-size:18px;
+    font-weight:600;
+
+    border-radius: 50%;
+    overflow: hidden;
+}
+.theory_item_top_title{
+    color:#37B1DF;
+    font-size:18px;
+
+    padding-left:10px;
+}
+.theory_item_bottom_describe{
+    width:199px;
+
+    margin:13px 0 0 42px;
+
+    font-size: 14px;
+    color: #A1B6C5;
+    line-height: 30px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,189 @@
+.teacher_introduce_sec_1{
+    background:url("../../img/teacher_introduce_sec_1_bg.png") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height:571px;
+}
+.teacher_introduce_sec_2{
+    width:100%;
+
+    padding-bottom:140px;
+
+    background:linear-gradient(-39deg,#EAF9FC 0%,#F7F7F7 100%);
+}
+.teacher_introduce_sec_2_content{
+    width:1180px;
+
+    margin:0 auto;
+}
+.teacher_introduce_sec_2_sub_title{
+    width:518px;
+
+    display:flex;
+    flex-wrap: wrap;
+
+    text-align: center;
+    font-size: 18px;
+    color: #A1B6C5;
+}
+.teacher_introduce_teacher_list{
+    width:1250px;
+
+    margin:60px 0 0 35px;
+
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.teacher_introduce_sec_2_teacher_item{
+    width:280px;
+    height:384px;
+
+    margin:0 20px 30px 0;
+
+    background:#FFFFFF;
+
+    box-shadow:0 10px 20px 0 rgba(0, 0, 0, 0.5);
+    border-radius:8px;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.teacher_introduce_sec_2_teacher_header{
+    width:130px;
+    height:130px;
+
+    border-radius: 50%;
+    overflow: hidden;
+
+    margin-top:50px;
+}
+.teacher_introduce_sec_2_teacher_header_pic{
+    width: 100%;
+}
+.teacher_introduce_sec_2_teacher_name{
+    font-size:18px;
+    font-weight:600;
+    color:#525C65;
+
+    margin-top:37px;
+}
+.teacher_introduce_sec_2_teacher_title_list{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+
+    font-size:14px;
+    line-height:18px;
+    color:#A1B6C5;
+}
+.teacher_introduce_sec_3{
+    width:100%;
+}
+.teacher_introduce_sec_3_content{
+    width:1180px;
+
+    margin:0 auto;
+}
+.teacher_introduce_sec_3_quality{
+    width:1180px;
+
+    margin:76px 0 0 105px;
+
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.teacher_introduce_sec_3_quality_item{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    width:202px;
+
+    margin:0 190px 87px 0;
+}
+
+.teacher_introduce_sec_3_quality_box{
+    width:100px;
+    height:100px;
+
+    background:rgba(255,255,255,1);
+
+    box-shadow:0 10px 20px 0 rgba(0, 0, 0, 0.03);
+    border-radius:50%;
+}
+.teacher_introduce_sec_3_quality_pic{
+    width:100%;
+}
+.teacher_introduce_sec_3_quality_title{
+    font-size:18px;
+    font-weight:600;
+    color:#525C65;
+
+    margin-top:28px;
+}
+.teacher_introduce_sec_3_quality_describe_list{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+
+    margin-top:19px;
+
+    font-size:14px;
+    font-weight:300;
+    color:#A1B6C5;
+    line-height:18px;
+}
+.teacher_introduce_sec_4{
+    width:100%;
+}
+.teacher_introduce_sec_4_content{
+    width:1180px;
+
+    margin:0 auto;
+}
+.teacher_introduce_sec_4_training{
+    width:1180px;
+
+    margin:61px auto 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.teacher_introduce_sec_4_training_item{
+    width:280px;
+    height:360px;
+
+    display:flex;
+    flex-direction: column;
+
+    margin-right: 20px;
+
+    box-shadow:0 10px 20px 0 rgba(0, 0, 0, 0.5);
+    border-radius:8px;
+    overflow: hidden;
+}
+.teacher_introduce_sec_4_training_item_pic_box{
+    width:280px;
+}
+.teacher_introduce_sec_4_training_item_pic{
+    width: 100%;
+}
+.teacher_introduce_sec_4_training_item_name{
+    padding: 31px 0 0 20px;
+
+    color: #525C65;
+    font-size:18px;
+    font-weight:600;
+}
+.teacher_introduce_sec_4_training_item_describe{
+    padding: 19px 20px 0;
+
+    font-size:14px;
+    color:#A1B6C5;
+
+    line-height:18px;
+}
